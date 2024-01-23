@@ -1,3 +1,33 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+
+header {
+    text-align: center;
+}
+
+.weatherCards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.citySearch {
+    display: inline;
+}
+
+#searchbar label {
+    padding: 5%;
+    margin: 5%;
+}
+
+#searchbar input {
+    padding: 5%;
+    margin: 5%;
+}
+
+#searchbar button {
+    padding: 5%;
+    margin: 5%;
 }
